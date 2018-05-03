@@ -1,0 +1,11 @@
+"use strict";
+console.log("hello woooooorld");
+var nombre = 'ignacio';
+var texto = "esto es letras";
+var numeros = 345;
+var verdaderoFalso = true;
+var cualquiera = "asdf";
+var arrayCaracter = ["texto1", "texto2"];
+var arrayNumeros = [34, 5, 7, 45];
+var arrayBooleano = [true, false, true];
+var arrayCualquier = ["asdas", 34];
