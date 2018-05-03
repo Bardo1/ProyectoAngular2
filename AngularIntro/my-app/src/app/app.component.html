@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<app-cabecera></app-cabecera>
+<app-cuerpo></app-cuerpo>
+<app-footer></app-footer>
+
+
+
+<h1 class="container bg-dark text-white text-center my-4 py-4">NgIf..El show={{show}}</h1>
+
+<div class="container">
+<button class="btn btn-warning" (click)="show=!show">Accion del botón</button>
+<p class="texto-info" *ngIf="show;else showDos">
+    Vivamus eget diam non augue mollis fringilla in eu ipsum. Nulla eu semper mi. Proin ut semper ipsum, sed accumsan sem. Phasellus faucibus, enim et euismod aliquet, lorem odio sagittis enim, a vehicula erat urna vel orci. Mauris interdum nibh in sollicitudin pretium. Cras cursus, ipsum sed tempor fermentum, dui odio ultrices lorem, at elementum sem erat quis nunc. Curabitur congue ligula id dolor auctor, et condimentum nisl sagittis. Nulla facilisi. Aliquam vestibulum, nulla ac convallis ultricies, lectus ligula gravida lacus, eu sodales ante odio non nisi. Nullam interdum eu leo sit amet ultricies. In ac luctus ex. Nulla facilisi. Curabitur venenatis mollis odio ut fringilla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse porttitor elementum tellus, sed faucibus risus mattis ut.</p>
+
+<ng-template #showDos>
+    <p class="texto-danger">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vestibulum vestibulum urna at suscipit. Donec dictum non ipsum consequat elementum. Fusce venenatis dapibus felis, ac condimentum elit blandit lobortis. Aenean vestibulum risus metus, in egestas nisi semper pulvinar. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam tristique lacus lorem, vitae imperdiet erat aliquam ut. Mauris sed augue at orci dapibus consequat sit amet eget libero. Vestibulum fringilla euismod lorem, ut volutpat elit tincidunt sit amet. Quisque hendrerit posuere mattis. Proin lacinia pellentesque luctus. Nam nec erat congue, porta sapien et, tincidunt orci. Nam eleifend, tellus nec vehicula porttitor, nunc sem molestie leo, accumsan aliquet turpis dolor in purus. Quisque ornare est nisi, quis scelerisque elit auctor at. Morbi condimentum justo at hendrerit interdum. Nulla fermentum eu lectus eget tincidunt. Integer purus neque, gravida lobortis lectus luctus, volutpat suscipit tortor.
+    </p>
+</ng-template>
+
+</div>
