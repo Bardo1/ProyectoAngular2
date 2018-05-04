@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
+  
   title:any = 'appjlkljkljkjlk';
    title1:string = 'Novedades';
    show:boolean = true;
@@ -15,6 +16,6 @@ export class AppComponent {
       { tipo: 'Home', nombre: 'cosa', edad:12 },
       { tipo: 'asd', nombre: 'ff', edad:132 },
       { tipo: 'dfdf', nombre: 'vvv', edad:152 },
-      { tipo: 'rrrr', nombre: 'ggg', edad:1442 
+      { tipo: 'rrrr', nombre: 'ggg', edad:1442 }
     ];
 }

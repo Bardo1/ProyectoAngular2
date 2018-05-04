@@ -1,0 +1,16 @@
+
+<div class="mt-5">
+  <h3>Seccion de nosotros</h3>
+    <p class="text-success">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vestibulum vestibulum urna at suscipit. Donec dictum non ipsum consequat elementum. Fusce venenatis dapibus felis, ac condimentum elit blandit lobortis. Aenean vestibulum risus metus, in egestas nisi semper pulvinar. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam tristique lacus lorem, vitae imperdiet erat aliquam ut. Mauris sed augue at orci dapibus consequat sit amet eget libero. Vestibulum fringilla euismod lorem, ut volutpat elit tincidunt sit amet. Quisque hendrerit posuere mattis. Proin lacinia pellentesque luctus. Nam nec erat congue, porta sapien et, tincidunt orci. Nam eleifend, tellus nec vehicula porttitor, nunc sem molestie leo, accumsan aliquet turpis dolor in purus. Quisque ornare est nisi, quis scelerisque elit auctor at. Morbi condimentum justo at hendrerit interdum. Nulla fermentum eu lectus eget tincidunt. Integer purus neque, gravida lobortis lectus luctus, volutpat suscipit tortor.
+    </p>
+  
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let equipo of equipo; index as i">
+         <h6>Nombre : {{equipo.nombre}}</h6>
+         <h6>Especialidad : {{equipo.especialidad }}</h6> 
+         <a [routerLink]="['/equipo',i]">...Leer mas</a>
+        </li>
+      </ul>
+      
+</div>
